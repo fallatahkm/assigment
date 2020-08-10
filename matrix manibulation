@@ -1,0 +1,11 @@
+makecacheMatrix <- function(a,b){
+        m <- rbind(a,b)
+        w <- solve(m)
+        return(w)
+}
+###########
+cacheSolve <- function(a){
+        q <- solve(a)
+        return(q)
+}
+cacheSolve(w)
